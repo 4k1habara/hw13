@@ -6,7 +6,7 @@ public class Main {
         Book redSky = new Book("Red Sky", fG, 1999);
         redSky.setYear(2004);
         //toSring
-        System.out.println(redSky);
+        System.out.println(aI);
         //equals
         boolean authorsBool = aI.equals(fG);
         if (authorsBool) {
@@ -14,7 +14,7 @@ public class Main {
         } else {
             System.out.println("Авторы разные");
         }
-        boolean booksBool = redSky.equals(redSky);
+        boolean booksBool = redSky.equals(theWorld);
         if (booksBool) {
             System.out.println("Это одна и та же книга");
         } else {
